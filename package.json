@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --hostname 0.0.0.0 --port 5000",
+    "dev": "next dev --hostname 0.0.0.0 --port $PORT",
     "build": "next build",
-    "start": "next start --hostname 0.0.0.0 --port 5000"
+    "start": "next start --hostname 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -13,7 +13,7 @@
     "clsx": "^2.1.1",
     "firebase": "^12.2.1",
     "lucide-react": "^0.542.0",
-    "next": "15.5.2",
+    "next": "15.2.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "tailwind-merge": "^3.3.1"
